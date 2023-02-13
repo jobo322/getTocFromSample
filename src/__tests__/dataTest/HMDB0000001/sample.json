@@ -1,0 +1,362 @@
+{
+  "_id": "b13b7ae8876bfd1e269dd007d76ca45a",
+  "_rev": "9-b46e11935446763dfad9c083d34a6160",
+  "$id": [
+    "HMDB0000001",
+    ""
+  ],
+  "$type": "entry",
+  "$owners": [
+    "admin@cheminfo.org",
+    "anonymousRead"
+  ],
+  "$content": {
+    "general": {
+      "mw": "169.1811",
+      "mf": "C7H11N3O2",
+      "smiles": "CN1C=NC(C[C@H](N)C(O)=O)=C1",
+      "description": "One-methylhistidine (1-MHis) is derived mainly from the anserine of dietary flesh sources, especially poultry. The enzyme, carnosinase, splits anserine into b-alanine and 1-MHis. High levels of 1-MHis tend to inhibit the enzyme carnosinase and increase anserine levels. Conversely, genetic variants with deficient carnosinase activity in plasma show increased 1-MHis excretions when they consume a high meat diet. Reduced serum carnosinase activity is also found in patients with Parkinson's disease and multiple sclerosis and patients following a cerebrovascular accident. Vitamin E deficiency can lead to 1-methylhistidinuria from increased oxidative effects in skeletal muscle. 1-Methylhistidine is a biomarker for the consumption of meat, especially red meat.",
+      "name": [
+        "(2S)-2-amino-3-(1-Methyl-1H-imidazol-4-yl)propanoic acid",
+        "1-Methylhistidine",
+        "Pi-methylhistidine",
+        "(2S)-2-amino-3-(1-Methyl-1H-imidazol-4-yl)propanoate",
+        "1 Methylhistidine",
+        "1-Methyl histidine",
+        "1-Methyl-histidine",
+        "1-Methyl-L-histidine",
+        "1-MHis",
+        "1-N-Methyl-L-histidine",
+        "L-1-Methylhistidine",
+        "N1-Methyl-L-histidine",
+        "1-Methylhistidine dihydrochloride"
+      ],
+      "molfile": "\nActelion Java MolfileCreator 1.0\n\n 12 12  0  0  1  0  0  0  0  0999 V2000\n    4.9535   -2.6160   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.5468   -1.7024   -0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0468   -0.8364   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3776   -0.0933   -0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4641   -0.5000   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5981   -0.0000   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7321   -0.5000   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7321   -1.5000   -0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8660   -0.0000   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8660    1.0000   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000   -0.5000   -0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5686   -1.4945   -0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0  0  0  0\n  3  2  1  0  0  0  0\n  4  3  2  0  0  0  0\n  5  4  1  0  0  0  0\n  6  5  1  0  0  0  0\n  7  6  1  0  0  0  0\n  7  8  1  6  0  0  0\n  9  7  1  0  0  0  0\n 10  9  1  0  0  0  0\n 11  9  2  0  0  0  0\n 12  5  2  0  0  0  0\n 12  2  1  0  0  0  0\nM  END\n",
+      "ocl": {
+        "value": "dcOD@ByPQInvWeVjiZhr@@",
+        "coordinates": "!BmpK~@K_}g~w@k_}s}Hqorn{wygMsp",
+        "index": [
+          -4214981,
+          2120648160,
+          -201108639,
+          -1933041664,
+          -1876917242,
+          367003648,
+          -2128347124,
+          1090535564,
+          269497633,
+          2392098,
+          135528736,
+          738459777,
+          1056900,
+          -2146172928,
+          8192,
+          1147022
+        ]
+      }
+    },
+    "identifier": {
+      "cas": "332-80-9",
+      "pubchem": "92105"
+    },
+    "spectra": {
+      "nmr": [
+        {
+          "accession": "HMDB0000001",
+          "spectrumId": "1022",
+          "hasData": true,
+          "hasExperimentalData": true,
+          "hasMetadata": false,
+          "hasPeakTable": true,
+          "dimension": 1,
+          "nucleus": [
+            "1H"
+          ],
+          "isFid": false,
+          "isFt": true,
+          "title": "Water Suppression",
+          "solvent": "D2O",
+          "pulse": "NOESY",
+          "experiment": "noesy",
+          "temperature": 298,
+          "frequency": 499.8286899,
+          "type": "NMR SPECTRUM",
+          "expno": 1,
+          "date": "2006-04-18T05:00:00.000Z",
+          "peaksFromTable": [
+            {
+              "ppm": "3.04",
+              "frequency": "1520.8",
+              "intensity": "0.0589"
+            },
+            {
+              "ppm": "3.06",
+              "frequency": "1528.5",
+              "intensity": "0.0609"
+            },
+            {
+              "ppm": "3.07",
+              "frequency": "1536.2",
+              "intensity": "0.1100"
+            },
+            {
+              "ppm": "3.09",
+              "frequency": "1543.9",
+              "intensity": "0.1135"
+            },
+            {
+              "ppm": "3.14",
+              "frequency": "1569.8",
+              "intensity": "0.1072"
+            },
+            {
+              "ppm": "3.15",
+              "frequency": "1574.7",
+              "intensity": "0.1115"
+            },
+            {
+              "ppm": "3.17",
+              "frequency": "1585.2",
+              "intensity": "0.0585"
+            },
+            {
+              "ppm": "3.18",
+              "frequency": "1590.1",
+              "intensity": "0.0570"
+            },
+            {
+              "ppm": "3.68",
+              "frequency": "1841.3",
+              "intensity": "1.0000"
+            },
+            {
+              "ppm": "3.95",
+              "frequency": "1971.8",
+              "intensity": "0.0964"
+            },
+            {
+              "ppm": "3.95",
+              "frequency": "1976.8",
+              "intensity": "0.1092"
+            },
+            {
+              "ppm": "3.96",
+              "frequency": "1979.5",
+              "intensity": "0.1042"
+            },
+            {
+              "ppm": "3.97",
+              "frequency": "1984.4",
+              "intensity": "0.0885"
+            },
+            {
+              "ppm": "7.00",
+              "frequency": "3498.9",
+              "intensity": "0.2369"
+            },
+            {
+              "ppm": "7.67",
+              "frequency": "3836.1",
+              "intensity": "0.2230"
+            }
+          ],
+          "range": [
+            {
+              "from": 7.66,
+              "to": 7.69,
+              "integral": "1",
+              "pubIntegral": "1",
+              "pubAsignment": [
+                "4"
+              ],
+              "signal": [
+                {
+                  "delta": 7.67,
+                  "multiplicity": "s",
+                  "nbAtoms": 1,
+                  "peak": [
+                    {
+                      "x": "7.67",
+                      "intensity": "0.2230"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "from": 6.98,
+              "to": 7.01,
+              "integral": "1",
+              "pubIntegral": "1",
+              "pubAsignment": [
+                "2"
+              ],
+              "signal": [
+                {
+                  "delta": 7,
+                  "multiplicity": "s",
+                  "nbAtoms": 1,
+                  "peak": [
+                    {
+                      "x": "7.00",
+                      "intensity": "0.2369"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "from": 3.94,
+              "to": 3.98,
+              "integral": "2",
+              "pubIntegral": "2",
+              "pubAsignment": [
+                "8"
+              ],
+              "signal": [
+                {
+                  "delta": 3.96,
+                  "multiplicity": "dd",
+                  "j": [
+                    {
+                      "coupling": 7.66
+                    },
+                    {
+                      "coupling": 4.92
+                    }
+                  ],
+                  "nbAtoms": 1,
+                  "peak": [
+                    {
+                      "x": "3.95",
+                      "intensity": "0.0964"
+                    },
+                    {
+                      "x": "3.95",
+                      "intensity": "0.1092"
+                    },
+                    {
+                      "x": "3.96",
+                      "intensity": "0.1042"
+                    },
+                    {
+                      "x": "3.97",
+                      "intensity": "0.0885"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "from": 3.66,
+              "to": 3.7,
+              "integral": "4",
+              "pubIntegral": "4",
+              "pubAsignment": [
+                "6"
+              ],
+              "signal": [
+                {
+                  "delta": 3.68,
+                  "multiplicity": "s",
+                  "nbAtoms": 1,
+                  "peak": [
+                    {
+                      "x": "3.68",
+                      "intensity": "1.0000"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "from": 3.13,
+              "to": 3.19,
+              "integral": "2",
+              "pubIntegral": "2",
+              "pubAsignment": [
+                "7"
+              ],
+              "signal": [
+                {
+                  "delta": 3.16,
+                  "multiplicity": "dd",
+                  "nbAtoms": 1,
+                  "peak": [
+                    {
+                      "x": "3.14",
+                      "intensity": "0.1072"
+                    },
+                    {
+                      "x": "3.15",
+                      "intensity": "0.1115"
+                    },
+                    {
+                      "x": "3.17",
+                      "intensity": "0.0585"
+                    },
+                    {
+                      "x": "3.18",
+                      "intensity": "0.0570"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "from": 3.03,
+              "to": 3.1,
+              "integral": "2",
+              "pubIntegral": "2",
+              "pubAsignment": [
+                "7"
+              ],
+              "signal": [
+                {
+                  "delta": 3.07,
+                  "multiplicity": "dd",
+                  "nbAtoms": 1,
+                  "peak": [
+                    {
+                      "x": "3.04",
+                      "intensity": "0.0589"
+                    },
+                    {
+                      "x": "3.06",
+                      "intensity": "0.0609"
+                    },
+                    {
+                      "x": "3.07",
+                      "intensity": "0.1100"
+                    },
+                    {
+                      "x": "3.09",
+                      "intensity": "0.1135"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "reference": "HMDB0000001_1022",
+          "jcamp": {
+            "filename": "spectra/nmr/HMDB0000001_1022.jdx"
+          }
+        }
+      ]
+    }
+  },
+  "$kind": "sample",
+  "$lastModification": "admin@cheminfo.org",
+  "$modificationDate": 1539959347840,
+  "$creationDate": 1538983101934,
+  "_attachments": {
+    "spectra/nmr/HMDB0000001_1022.jdx": {
+      "content_type": "chemical/x-jcamp-dx",
+      "revpos": 9,
+      "digest": "md5-nh+ch+5i+OYZkNlrBqnk5Q==",
+      "length": 920778,
+      "stub": true
+    }
+  }
+}
