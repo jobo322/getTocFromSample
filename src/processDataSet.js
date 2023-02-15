@@ -14,13 +14,16 @@ export async function processDataSet(path, options = {}) {
 
   const fileCollection = await fileCollectionFromPath(path);
   const result = [];
+  // let nbSample = 0;
   for (const file of fileCollection) {
     if (!file.name.endsWith('.json')) continue;
     const tocs = getToc(JSON.parse(await file.text()));
 
     for (const toc of tocs) {
       const { jcampURL } = toc;
-
+      if (!jcampURL) {
+        continue;
+      }
       const fileOfJcamp = fileCollection.files.find((file) =>
         file.relativePath.endsWith(jcampURL),
       );
@@ -28,7 +31,8 @@ export async function processDataSet(path, options = {}) {
       toc.jcampURL = `./jcamp/${fileOfJcamp.name}`;
       result.push(toc);
     }
-
-    writeFileSync(`${pathToSave}/toc.json`, JSON.stringify(result));
+    // if (nbSample > 20) break;
+    // nbSample += 1;
   }
+  writeFileSync(`${pathToSave}/toc.json`, JSON.stringify(result));
 }

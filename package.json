@@ -29,7 +29,9 @@
   },
   "homepage": "https://github.com/jobo322/getTocFromSample#readme",
   "dependencies": {
-    "filelist-utils": "^1.7.0"
+    "filelist-utils": "^1.7.0",
+    "nmr-processing": "^9.3.6",
+    "openchemlib": "^8.2.0"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.20.11",
